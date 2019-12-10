@@ -355,4 +355,4 @@ exec_always --no-startup-id ~/.config/polybar/start.sh
 exec_always feh --bg-scale /home/anthony/Pictures/pixiv/wall/asdf/wallpaper.png
 
 exec redshift-gtk
-exec compton
+exec picom
