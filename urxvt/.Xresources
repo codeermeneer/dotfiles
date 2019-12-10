@@ -1,0 +1,44 @@
+URxvt.font: xft:Hack:size=10,\
+            xft:ipagothic
+URxvt.scrollBar: false
+URxvt.internalBorder: 40
+
+!! special
+URxvt.foreground:   rgb:dc/dc/cc
+!! URxvt.background:   rgba:2c/2c/2c/c800
+URxvt.cursorColor:  rgb:dc/dc/cc
+
+!! black
+URxvt.color0:       rgb:3f/3f/3f
+URxvt.color8:       rgb:70/90/80
+
+!! red
+URxvt.color1:       rgb:7a/69/8d
+URxvt.color9:       rgb:77/83/9a
+
+!! green
+URxvt.color2:       rgb:60/b4/8a
+URxvt.color10:      rgb:72/d5/a3
+
+!! yellow
+URxvt.color3:       rgb:e0/9b/71
+URxvt.color11:      rgb:df/a7/77
+
+!! blue
+URxvt.color4:       rgb:00/49/7e
+URxvt.color12:      rgb:13/5f/90
+
+!! magenta
+URxvt.color5:       rgb:8b/59/72
+URxvt.color13:      rgb:bd/79/84
+
+!! cyan
+URxvt.color6:       rgb:48/86/9f
+URxvt.color14:      rgb:69/a4/b6
+
+!! white
+URxvt.color7:       rgb:dc/dc/cc
+URxvt.color15:      rgb:ff/ff/ff
+
+urxvt*depth: 32
+urxvt*background: rgba:2c00/2c00/2c00/bb00
