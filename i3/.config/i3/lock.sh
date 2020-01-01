@@ -7,6 +7,8 @@ T='#00497eee'  # text
 W='#828092bb'  # wrong
 V='#3d95d3bb'  # verifying
 
+mpc pause
+
 i3lock \
 --insidevercolor=$C   \
 --ringvercolor=$V     \
