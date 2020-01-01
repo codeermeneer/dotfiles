@@ -18,7 +18,6 @@ visualizer_color = blue, cyan, green, yellow, magenta, red
 
 playlist_display_mode = columns
 song_columns_list_format = (20)[]{a} (6f)[green]{NE} (40)[white]{t|f:Title} (30)[cyan]{bE} (12f)[blue]{yE} (7f)[magenta]{l}
-#song_columns_list_format = (16)[]{a} (3)[green]{NE} (30)[white]{t|f:Title} (24)[cyan]{b} (3)[cyan]{yE} (4)[magenta]{l} (20)[]{:Album Art}
 
 execute_on_song_change = "~/.ncmpcpp/art.sh"
 user_interface = alternative
