@@ -1,11 +1,12 @@
-URxvt.font: xft:Hack:size=10,\
-            xft:ipagothic
+URxvt.font: xft:Hack:size=10, xft:ipagothic 
+
 URxvt.scrollBar: false
 URxvt.internalBorder: 40
 
 !! special
+URxvt.depth:        32
 URxvt.foreground:   rgb:dc/dc/cc
-!! URxvt.background:   rgba:2c/2c/2c/c800
+URxvt.background:   rgba:2000/2000/2000/bb00
 URxvt.cursorColor:  rgb:dc/dc/cc
 
 !! black
@@ -25,8 +26,10 @@ URxvt.color3:       rgb:e0/9b/71
 URxvt.color11:      rgb:df/a7/77
 
 !! blue
-URxvt.color4:       rgb:00/49/7e
-URxvt.color12:      rgb:13/5f/90
+!!URxvt.color4:       rgb:00/49/7e
+!!URxvt.color12:      rgb:13/5f/90
+URxvt.color4:       rgb:04/7e/d6
+URxvt.color12:      rgb:3d/95/d3
 
 !! magenta
 URxvt.color5:       rgb:8b/59/72
@@ -40,5 +43,3 @@ URxvt.color14:      rgb:69/a4/b6
 URxvt.color7:       rgb:dc/dc/cc
 URxvt.color15:      rgb:ff/ff/ff
 
-urxvt*depth: 32
-urxvt*background: rgba:2c00/2c00/2c00/bb00
