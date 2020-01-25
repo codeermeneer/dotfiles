@@ -1,4 +1,4 @@
-URxvt.font: xft:Hack:size=10, xft:ipagothic 
+URxvt.font: xft:Hack Nerd Font:style=Regular:size=10, xft:ipagothic, xft:Noto Sans Mono CJK JP:style=Regular:pixelsize=10, xft:Symbola
 
 URxvt.scrollBar: false
 URxvt.internalBorder: 40
