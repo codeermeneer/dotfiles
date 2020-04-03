@@ -16,6 +16,8 @@ visualizer_type = wave
 visualizer_look = ●▮
 visualizer_color = blue, cyan, green, yellow, magenta, red
 
+volume_change_step = 1
+
 playlist_display_mode = columns
 song_columns_list_format = (20)[]{a} (6f)[green]{NE} (40)[white]{t|f:Title} (30)[cyan]{bE} (12f)[blue]{yE} (7f)[magenta]{l}
 

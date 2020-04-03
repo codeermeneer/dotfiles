@@ -29,7 +29,7 @@ i3lock \
 --keyhlcolor=$W       \
 --bshlcolor=$W        \
 \
--i ~/Pictures/walls/asdf/1080.png \
+-i ~/Pictures/walls/lock.jpg \
 --clock               \
 --indicator           \
 --timestr="%H:%M:%S"  \

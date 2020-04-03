@@ -1,45 +1,54 @@
-URxvt.font: xft:Hack Nerd Font:style=Regular:size=10, xft:ipagothic, xft:Noto Sans Mono CJK JP:style=Regular:pixelsize=10, xft:Symbola
+URxvt.font: xft:FiraCode Nerd Font:style=Regular:size=11, xft:Noto Sans Mono CJK JP, xft:Hack Nerd Font, xft:Unifont
+!! URxvt.font: xft:Hack Nerd Font:style=Regular:size=10, xft:ipagothic, xft:Noto Sans Mono CJK JP:style=Regular:pixelsize=10, xft:Symbola
 
 URxvt.scrollBar: false
-URxvt.internalBorder: 40
+URxvt.internalBorder: 35
+
+URxvt.perl-ext-common: default,matcher,resize-font
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline Bold bg7
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
 
 !! special
-URxvt.depth:        32
-URxvt.foreground:   rgb:dc/dc/cc
-URxvt.background:   rgba:2000/2000/2000/bb00
-URxvt.cursorColor:  rgb:dc/dc/cc
+*cursorColor:  #dcdccc
+*depth:        32
+*foreground:   #dcdccc
+*background:   #202020
+URxvt.background:   rgba:1000/1000/1000/bb00
 
 !! black
-URxvt.color0:       rgb:3f/3f/3f
-URxvt.color8:       rgb:70/90/80
+*color0:       #3f3f3f
+*color8:       #709080
 
 !! red
-URxvt.color1:       rgb:7a/69/8d
-URxvt.color9:       rgb:77/83/9a
+*color1:       #7a698d
+*color9:       #77839a
 
 !! green
-URxvt.color2:       rgb:60/b4/8a
-URxvt.color10:      rgb:72/d5/a3
+*color2:       #60b48a
+*color10:      #72d5a3
 
 !! yellow
-URxvt.color3:       rgb:e0/9b/71
-URxvt.color11:      rgb:df/a7/77
+*color3:       #e09b71
+*color11:      #dfa777
 
 !! blue
-!!URxvt.color4:       rgb:00/49/7e
-!!URxvt.color12:      rgb:13/5f/90
-URxvt.color4:       rgb:04/7e/d6
-URxvt.color12:      rgb:3d/95/d3
+!! *color4:       #00497e
+!! *color12:      #135f90
+*color4:       #047ed6
+*color12:      #3d95d3
 
 !! magenta
-URxvt.color5:       rgb:8b/59/72
-URxvt.color13:      rgb:bd/79/84
+*color5:       #8b5972
+*color13:      #bd7984
 
 !! cyan
-URxvt.color6:       rgb:48/86/9f
-URxvt.color14:      rgb:69/a4/b6
+*color6:       #48869f
+*color14:      #69a4b6
 
 !! white
-URxvt.color7:       rgb:dc/dc/cc
-URxvt.color15:      rgb:ff/ff/ff
-
+*color7:       #dcdccc
+*color15:      #ffffff
