@@ -2,8 +2,8 @@
 
 B='#00000000'  # blank
 C='#ffffff22'  # clear ish
-D='#047ed6cc'  # default
-T='#00497eee'  # text
+D='#dcdcccff'  # default
+T='#dcdcccff'  # text
 W='#828092bb'  # wrong
 V='#3d95d3bb'  # verifying
 

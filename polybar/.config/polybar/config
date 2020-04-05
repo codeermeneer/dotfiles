@@ -148,7 +148,7 @@ ws-icon-default = ♚
 label-focused = %icon%
 label-focused-background = ${root.selected-background}
 label-focused-foreground = ${root.selected-foreground}
-label-focused-underline= ${colors.primary}
+label-focused-underline= ${root.selected-foreground}
 label-focused-padding = 2
 
 label-occupied = %icon%
@@ -300,8 +300,8 @@ interval = 5
 date = "%d %b"
 date-alt = "%Y-%m-%d"
 
-time = %H:%M
-time-alt = %H:%M:%S
+time = "%H:%M |"
+time-alt = "%H:%M:%S |"
 
 label = %date% %time%
 
