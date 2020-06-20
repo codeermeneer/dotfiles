@@ -1,5 +1,4 @@
-URxvt.font: xft:FiraCode Nerd Font:style=Regular:size=11, xft:Noto Sans Mono CJK JP, xft:Hack Nerd Font, xft:Unifont
-!! URxvt.font: xft:Hack Nerd Font:style=Regular:size=10, xft:ipagothic, xft:Noto Sans Mono CJK JP:style=Regular:pixelsize=10, xft:Symbola
+URxvt.font: xft:FiraCode Nerd Font:style=Regular:size=11, xft:Noto Sans Mono CJK JP, xft:Hack Nerd Font
 
 URxvt.scrollBar: false
 URxvt.internalBorder: 35
@@ -36,8 +35,6 @@ URxvt.background:   rgba:1000/1000/1000/bb00
 *color11:      #dfa777
 
 !! blue
-!! *color4:       #00497e
-!! *color12:      #135f90
 *color4:       #047ed6
 *color12:      #3d95d3
 
