@@ -3,14 +3,14 @@ configuration {
     width: 35;
     lines: 12;
     font: "FiraCode Nerd Font 11";
-    //sidebar-mode: true;
+    /*sidebar-mode: true;*/
     show-icons: true;
     terminal: "URxvt";
-    disable-history: false;
+    disable-history: true;
     display-drun: "";
     drun-match-fields: "name,generic,exec,categories";
-    levenshtein-sort: true;
-    //matching: "fuzzy";
+    sort: true;
+    matching: "normal";
 }
 
 * {

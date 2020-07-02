@@ -20,7 +20,7 @@ URxvt.background:   rgba:1000/1000/1000/bb00
 
 !! black
 *color0:       #3f3f3f
-*color8:       #709080
+*color8:       #6d6d6d
 
 !! red
 *color1:       #7a698d

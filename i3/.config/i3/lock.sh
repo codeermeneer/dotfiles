@@ -2,10 +2,14 @@
 
 B='#00000000'  # blank
 C='#ffffff22'  # clear ish
-D='#dcdcccff'  # default
-T='#dcdcccff'  # text
-W='#828092bb'  # wrong
+D='#202020ff'  # default
+T='#202020ff'  # text
+W='#dcdcddbb'  # wrong
 V='#3d95d3bb'  # verifying
+
+bg_path="$(cat ~/.fehbg | sed '1d' | sed 's/feh\ --no-fehbg\ --bg-scale\ //' | sed "s/'//g")"
+echo $bg_path
+convert $bg_path -resize 1920x1080 /tmp/lock.jpg
 
 mpc pause
 
@@ -29,7 +33,7 @@ i3lock \
 --keyhlcolor=$W       \
 --bshlcolor=$W        \
 \
--i ~/Pictures/walls/lock.jpg \
+-i /tmp/lock.jpg \
 --clock               \
 --indicator           \
 --timestr="%H:%M:%S"  \
